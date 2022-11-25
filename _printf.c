@@ -17,5 +17,7 @@ int _printf(const char *format, ...)
 	done = vfprintf(stdout, format, arg);
 	va_end(arg);
 
+      //  For (i = 0; i < 5; i++)
+
 	return (done);
 }
